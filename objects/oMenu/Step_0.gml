@@ -13,7 +13,7 @@ if (menu > 2) {
 if (menu == 0) {
 	image_index = 0;
 	if (keyboard_check(vk_enter)) {
-		room_goto(Text)
+		room_goto(GameRoom)
 	}
 }
 

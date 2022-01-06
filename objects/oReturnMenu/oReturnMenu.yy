@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sInfo",
-    "path": "sprites/sInfo/sInfo.yy",
+    "name": "sReturn2",
+    "path": "sprites/sReturn2/sReturn2.yy",
   },
   "solid": true,
   "visible": true,
@@ -20,7 +20,9 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -28,7 +30,7 @@
     "path": "folders/Objects/Button.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oInfo",
+  "name": "oReturnMenu",
   "tags": [],
   "resourceType": "GMObject",
 }

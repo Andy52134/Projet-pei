@@ -1,3 +1,3 @@
 targetRoom = Cigarette;
-targetX = 0;
-targetY = 0;
+targetX = 50;
+targetY = 700;

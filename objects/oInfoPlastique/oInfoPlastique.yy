@@ -1,9 +1,9 @@
 {
   "spriteId": {
-    "name": "sReturn2",
-    "path": "sprites/sReturn2/sReturn2.yy",
+    "name": "sInfoPlastique",
+    "path": "sprites/sInfoPlastique/sInfoPlastique.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
@@ -20,7 +20,11 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":1,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -28,7 +32,7 @@
     "path": "folders/Objects/Button.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oReturn2",
+  "name": "oInfoPlastique",
   "tags": [],
   "resourceType": "GMObject",
 }

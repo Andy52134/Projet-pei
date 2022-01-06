@@ -1,15 +1,24 @@
-/*
+enum quest {
+	Ramasser_plastique,
+	Ramasser_cigarette
+}
+
+
 var quest_array = [
 	[
-	 	"Trouver chose polluante",
+	 	"Ramasser Cigarette",
 		0,
-		["Trouver du plastique", "Trouver des cigarettes"]
+		["Ramasser des cigarettes sur la route", "Quest"]
 	],
+	
 	[
-		"Ramaser Plastique",
+		"Ramasser Plastique",
 		-1,
-		["Ramaser de plastique dans l'eau"]
+		["Ramasser le plastique dans l'eau"]
 	],
 ];
 
-ds_quests = create_ds_grid_from_array(quest_array);*/
+
+ds_quests = create_ds_grid_from_array(quest_array);
+ds_quests_number = ds_grid_height(ds_quests)
+

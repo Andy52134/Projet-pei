@@ -31,3 +31,4 @@ if(keyboard_check(vk_shift)) {
 	walkSpeed = 7;
 }
 
+

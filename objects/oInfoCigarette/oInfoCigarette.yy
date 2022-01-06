@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sButton",
-    "path": "sprites/sButton/sButton.yy",
+    "name": "sInfoCigarette",
+    "path": "sprites/sInfoCigarette/sInfoCigarette.yy",
   },
   "solid": true,
   "visible": true,
@@ -21,8 +21,9 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":1,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -31,7 +32,7 @@
     "path": "folders/Objects/Button.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oButton",
+  "name": "oInfoCigarette",
   "tags": [],
   "resourceType": "GMObject",
 }

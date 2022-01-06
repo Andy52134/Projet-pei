@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sReturn",
-    "path": "sprites/sReturn/sReturn.yy",
+    "name": "sButtonPlastique",
+    "path": "sprites/sButtonPlastique/sButtonPlastique.yy",
   },
   "solid": true,
   "visible": true,
@@ -31,7 +31,7 @@
     "path": "folders/Objects/Button.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oReturn",
+  "name": "oButtonPlastique",
   "tags": [],
   "resourceType": "GMObject",
 }

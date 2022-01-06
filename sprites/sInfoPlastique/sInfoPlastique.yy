@@ -8,13 +8,13 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 63,
+  "bbox_right": 18,
   "bbox_top": 0,
-  "bbox_bottom": 19,
+  "bbox_bottom": 18,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 64,
+  "width": 20,
   "height": 20,
   "textureGroupId": {
     "name": "Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"5e4ecef1-2908-4824-83c8-da7f34cfd40c","path":"sprites/sButton2/sButton2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"5e4ecef1-2908-4824-83c8-da7f34cfd40c","path":"sprites/sButton2/sButton2.yy",},"LayerId":{"name":"94d9903a-20dc-4300-aa9d-e8a500f8a7e0","path":"sprites/sButton2/sButton2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sButton2","path":"sprites/sButton2/sButton2.yy",},"resourceVersion":"1.0","name":"5e4ecef1-2908-4824-83c8-da7f34cfd40c","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"e0792053-a1f8-4819-8e7a-6762e8d23c24","path":"sprites/sInfoPlastique/sInfoPlastique.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"e0792053-a1f8-4819-8e7a-6762e8d23c24","path":"sprites/sInfoPlastique/sInfoPlastique.yy",},"LayerId":{"name":"e01d2428-1794-4865-b715-24836f13a791","path":"sprites/sInfoPlastique/sInfoPlastique.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sInfoPlastique","path":"sprites/sInfoPlastique/sInfoPlastique.yy",},"resourceVersion":"1.0","name":"e0792053-a1f8-4819-8e7a-6762e8d23c24","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"sButton2","path":"sprites/sButton2/sButton2.yy",},
+    "spriteId": {"name":"sInfoPlastique","path":"sprites/sInfoPlastique/sInfoPlastique.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"5445e380-292f-42d4-bf72-41d4bacc0fcd","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"5e4ecef1-2908-4824-83c8-da7f34cfd40c","path":"sprites/sButton2/sButton2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"1ce77041-f44c-4388-bc08-429f409c2874","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e0792053-a1f8-4819-8e7a-6762e8d23c24","path":"sprites/sInfoPlastique/sInfoPlastique.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sButton2","path":"sprites/sButton2/sButton2.yy",},
+    "parent": {"name":"sInfoPlastique","path":"sprites/sInfoPlastique/sInfoPlastique.yy",},
     "resourceVersion": "1.3",
-    "name": "sButton2",
+    "name": "sInfoPlastique",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"94d9903a-20dc-4300-aa9d-e8a500f8a7e0","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e01d2428-1794-4865-b715-24836f13a791","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites/Button.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sButton2",
+  "name": "sInfoPlastique",
   "tags": [],
   "resourceType": "GMSprite",
 }
